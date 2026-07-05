@@ -5,4 +5,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/0007-reverse-integer) |
+| [3945-digit-frequency-score](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/3945-digit-frequency-score) |
+## Hash Table
+|  |
+| ------- |
+| [3945-digit-frequency-score](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/3945-digit-frequency-score) |
 <!---LeetCode Topics End-->
