@@ -45,3 +45,124 @@
 <ul>
 	<li><code>1 &lt;= num, t&nbsp;&lt;= 50</code></li>
 </ul>
+
+Here's a concise note you can add to your GitHub repository.
+
+---
+
+# 💡 Understanding the Question
+
+We are given two integers:
+
+* `num`
+* `t` (maximum number of operations allowed)
+
+We need to find the **maximum possible starting value of `x`** such that after performing **at most `t` operations**, `x` becomes equal to `num`.
+
+## One Operation
+
+In a single operation, **both numbers must change simultaneously**.
+
+Possible operations are:
+
+```text
+x++, num++
+x--, num--
+x++, num--
+x--, num++
+```
+
+To get the **maximum possible value of `x`**, we always choose:
+
+```text
+x--
+num++
+```
+
+This reduces the difference between `x` and `num` by **2** in every operation.
+
+---
+
+## Example 1
+
+```text
+num = 4
+t = 1
+```
+
+Suppose:
+
+```text
+x = 6
+```
+
+One operation:
+
+```text
+x   : 6 → 5
+num : 4 → 5
+```
+
+Now both are equal.
+
+**Answer = 6**
+
+---
+
+## Example 2
+
+```text
+num = 3
+t = 2
+```
+
+Suppose:
+
+```text
+x = 7
+```
+
+Operation 1:
+
+```text
+x   : 7 → 6
+num : 3 → 4
+```
+
+Operation 2:
+
+```text
+x   : 6 → 5
+num : 4 → 5
+```
+
+Now both are equal.
+
+**Answer = 7**
+
+---
+
+## Key Observation
+
+Each operation increases the **maximum achievable starting value** of `x` by **2`.
+
+So after `t` operations:
+
+```text
+x = num + 2 + 2 + ... (t times)
+```
+
+which simplifies to:
+
+```java
+x = num + (2 * t);
+```
+
+This is why the final solution is:
+
+```java
+return num + (2 * t);
+```
+
+This explanation is short, beginner-friendly, and suitable for GitHub notes.
+
