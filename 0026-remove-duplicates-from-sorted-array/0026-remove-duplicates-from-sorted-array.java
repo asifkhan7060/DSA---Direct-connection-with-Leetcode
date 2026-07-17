@@ -1,33 +1,56 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
 
-        int length = nums.length;
-        int[] arr = new int[length];
-        int inc = 0; // for arr traversal
+        // 4-5ms code
 
-        for (int i = 0; i < length; i++) {
+        // int length = nums.length;
+        // int[] arr = new int[length];
+        // int inc = 0; // for arr traversal
 
-            boolean found = false;
+        // for (int i = 0; i < length; i++) {
 
-            for (int j = 0; j < inc; j++) {
+        //     boolean found = false;
 
-                if (nums[i] == arr[j]) {
-                    found = true;
-                    break;
-                }
-            }
+        //     for (int j = 0; j < inc; j++) {
 
-            if (!found) {
-                arr[inc] = nums[i];
-                inc++;
-            }
+        //         if (nums[i] == arr[j]) {
+        //             found = true;
+        //             break;
+        //         }
+        //     }
+
+        //     if (!found) {
+        //         arr[inc] = nums[i];
+        //         inc++;
+        //     }
+        // }
+
+        // // Copy back into nums because LeetCode checks nums
+        // for (int i = 0; i < inc; i++) {
+        //     nums[i] = arr[i];
+        // }
+
+        // return inc;
+
+
+
+        // 1ms code
+
+        int k=1;
+
+        for(int i=1;i<nums.length;i++){
+
+        if(nums[i]!=nums[k-1]){
+
+            nums[k]=nums[i];
+            k++;
         }
+      }
 
-        // Copy back into nums because LeetCode checks nums
-        for (int i = 0; i < inc; i++) {
-            nums[i] = arr[i];
-        }
+        return k;
 
-        return inc;
+        // input nums : [0,1,2,3,4,2,2,3,3,4]
+        // k = 5
+        // Output nums : [0,1,2,3,4,2,2,3,3,4] LeetCode only checks the first k elements (note)
     }
 }
