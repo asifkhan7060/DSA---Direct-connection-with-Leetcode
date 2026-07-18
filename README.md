@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/0007-reverse-integer) |
 | [0043-multiply-strings](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/0043-multiply-strings) |
+| [0067-add-binary](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/0067-add-binary) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/1588-sum-of-all-odd-length-subarrays) |
 | [2769-find-the-maximum-achievable-number](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/2769-find-the-maximum-achievable-number) |
 | [3945-digit-frequency-score](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/3945-digit-frequency-score) |
@@ -30,10 +31,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/0043-multiply-strings) |
+| [0067-add-binary](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/0067-add-binary) |
 ## Simulation
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/0043-multiply-strings) |
+| [0067-add-binary](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/0067-add-binary) |
 ## Two Pointers
 |  |
 | ------- |
@@ -44,4 +47,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/0088-merge-sorted-array) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/asifkhan7060/DSA---Direct-connection-with-Leetcode/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
